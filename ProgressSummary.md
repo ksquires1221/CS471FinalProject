@@ -1,0 +1,5 @@
+The project currently includes a functioning A* algorithm and a 3D visualization of the route-planning environment, including color-coded restricted and penalty zones. It also displays the route selected by the algorithm, making its decision process visible. We have added tests for the heuristic and checks that compare the route’s cost against the optimal cost.
+
+Going forward, we should focus on improving the heuristic and cost calculations. Future development could allow routes to be generated across a map and use aircraft performance data and fuel burn to estimate route costs. Simulating headwinds in the environment could also make the model more realistic. The team will need to also make a better demonstration of the A* path algorithm selecting the actual path that it chose based on path costs. Currently, it looks a bit like a black box. Adding a walkthrough could improve understanding of the audience.
+
+C/DiMatteo led much of the coding for the project. C/Squires and C/Gallegos focused primarily on administration and polishing the submission.
