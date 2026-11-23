@@ -24,3 +24,6 @@ cost = distance / DIST_SCALE
      + climb / CLIMB_SCALE
      + WIND_PENALTY * wind_fraction * distance / DIST_SCALE
 the wind fraction is the portion of points in the wind zone.
+
+# Supporting tests
+these calculations are found at the bottom of the actual executable notebook.
